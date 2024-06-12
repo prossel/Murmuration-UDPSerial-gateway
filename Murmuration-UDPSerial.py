@@ -18,8 +18,13 @@ PORT = 8080
 # echo sending port number
 PORT_ECHO = 8081
 
-# Get the list of serial ports and open the last one
+# Get the list of serial ports
 ports = serial.tools.list_ports.comports()
+print("List of serial ports:")
+for port in ports:
+    print("  " + port.device)
+
+# open the last port in the list
 port = ports[-1].device
 print("Open the serial port: " + port)
 ser = serial.Serial(port, 9600, timeout=0.1)
