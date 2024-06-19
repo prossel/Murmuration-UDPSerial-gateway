@@ -27,7 +27,7 @@ python3 Murmuration-UDPSerial.py
 
 ## Example
 
-Unity demo to control the relays
+Unity-UDP-RS485-Relays
 
-[https://github.com/prossel/Unity-Demo-RS485-Relays](https://github.com/prossel/Unity-Demo-RS485-Relays)
+[https://github.com/prossel/Unity-UDP-RS485-Relays](https://github.com/prossel/Unity-UDP-RS485-Relays)
 
